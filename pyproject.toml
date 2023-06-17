@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "car-config"
+version = "0.1.0"
+description = ""
+authors = ["jonathan.kerr <jonathan.kerr@digital.cabinet-office.gov.uk>"]
+readme = "README.md"
+packages = [{include = "car_config"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.3.2"
+mypy = "^1.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
